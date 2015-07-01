@@ -3,22 +3,19 @@ package android.caren.quo;
 import java.util.ArrayList;
 import java.util.Locale;
 
+import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
-import android.media.Image;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
-import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
-import android.widget.TextView;
 import android.widget.Toast;
 
-public class StartActivity extends AppCompatActivity {
+public class StartActivity extends Activity {
 
     private EditText quoteText;
     private ImageView startButton;
