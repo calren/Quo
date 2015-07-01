@@ -1,16 +1,30 @@
 package android.caren.quo;
 
+import android.caren.quo.booklist.BookListActivity;
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class BookConfirmationActivity extends AppCompatActivity {
+
+    View confirm;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book_confirmation);
+        confirm = findViewById(R.id.confirm_button);
+
+        confirm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(BookConfirmationActivity.this, BookListActivity.class);
+                BookConfirmationActivity.this.startActivity(intent);
+            }
+        });
     }
 
     @Override

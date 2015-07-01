@@ -29,6 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_alignParentBottom="true"
+        android:id="@+id/confirm_button"
         android:background="#4F94CD">
 
         <ImageView

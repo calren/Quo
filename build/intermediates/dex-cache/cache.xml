@@ -2,18 +2,18 @@
 <items version="2" >
 
     <item
+        jar="/Users/carenchang/Desktop/Quo/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e0b0c35d02308b270015a74cada4887e2e49b889">
+        <dex dex="/Users/carenchang/Desktop/Quo/app/build/intermediates/pre-dexed/debug/classes-22e149f5e82a6f57588615656f3b150f1e09f55b.jar" />
+    </item>
+    <item
         jar="/Users/carenchang/Desktop/Quo/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="c95ba8152923e4872e86a82cfcba9a51c0214328">
         <dex dex="/Users/carenchang/Desktop/Quo/app/build/intermediates/pre-dexed/debug/classes-c242e6937f19f499e5205030657a9cf259cb951b.jar" />
-    </item>
-    <item
-        jar="/Users/carenchang/Desktop/Quo/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
-        <dex dex="/Users/carenchang/Desktop/Quo/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-67f128324cf6adc2a8df4ad7dbd48cb53574b67b.jar" />
     </item>
     <item
         jar="/Users/carenchang/Desktop/Quo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.1/jars/classes.jar"
@@ -28,6 +28,13 @@
         revision="22.0.1"
         sha1="01d051a6bfb1218b1db2d3a5af0480ac2c25c42a">
         <dex dex="/Users/carenchang/Desktop/Quo/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.1-f596ee4f5340efbb9628f4dbd890aff1f650fe5d.jar" />
+    </item>
+    <item
+        jar="/Users/carenchang/Desktop/Quo/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.1/jars/libs/internal_impl-22.1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9e070ad32b2700b0343e8e0cccc437733d91ba3a">
+        <dex dex="/Users/carenchang/Desktop/Quo/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.1-67f128324cf6adc2a8df4ad7dbd48cb53574b67b.jar" />
     </item>
 
 </items>
