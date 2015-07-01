@@ -7,17 +7,21 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.EditText;
 
 public class BookConfirmationActivity extends AppCompatActivity {
 
     View confirm;
+    EditText bookTitle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book_confirmation);
         confirm = findViewById(R.id.confirm_button);
-
+        bookTitle = (EditText) findViewById(R.id.book_title_edit_text);
+        bookTitle.setSelection(bookTitle.getText().length());
+        
         confirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

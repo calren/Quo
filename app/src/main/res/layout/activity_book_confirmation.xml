@@ -16,20 +16,21 @@
         android:textSize="40dp" />
 
     <EditText
-        android:id="@+id/textView3"
+        android:id="@+id/book_title_edit_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:layout_margin="20dp"
+        android:layout_margin="30dp"
+        android:background="@android:color/transparent"
         android:text="Example Book Title"
         android:textSize="35dp" />
 
     <RelativeLayout
+        android:id="@+id/confirm_button"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_alignParentBottom="true"
-        android:id="@+id/confirm_button"
         android:background="#4F94CD">
 
         <ImageView

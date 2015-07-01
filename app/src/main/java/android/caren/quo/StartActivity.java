@@ -31,6 +31,7 @@ public class StartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start);
 
         quoteText = (EditText) findViewById(R.id.textView);
+        quoteText.setSelection(quoteText.getText().length());
         startButton = (ImageView) findViewById(R.id.quote_button);
         saveButton = (ImageView) findViewById(R.id.save_quote_button);
 

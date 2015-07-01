@@ -7,31 +7,32 @@
 
     <EditText
         android:id="@+id/textView"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
         android:layout_marginTop="82dp"
+        android:background="@android:color/transparent"
         android:text="Where's that quote sfdaf sdaf dsf sfad sdf asf asd fasdf ?"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <ImageView
         android:id="@+id/quote_button"
-        android:layout_margin="20dp"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_alignParentBottom="true"
-        android:src="@drawable/speech_big"
-        android:layout_alignParentRight="true" />
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/speech_big" />
 
     <ImageView
         android:id="@+id/save_quote_button"
-        android:layout_margin="20dp"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_alignParentBottom="true"
-        android:src="@drawable/save_big"
-        android:layout_alignParentLeft="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20dp"
+        android:src="@drawable/save_big" />
 </RelativeLayout>

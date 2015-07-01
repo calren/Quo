@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="FFFFFF">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:src="@drawable/startquote"
+        android:layout_alignTop="@id/quote_text"/>
+
+    <TextView
+        android:id="@+id/quote_text"
+        android:layout_width="200dp"
+        android:layout_marginLeft="70dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="This is an example quote that is not actually a real quote. Maybe it could have been from Harry Potter" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/endquote"
+        android:layout_alignBottom="@id/quote_text"/>
+
+
+</RelativeLayout>

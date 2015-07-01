@@ -6,31 +6,31 @@
     android:padding="10dp">
 
     <ImageView
-        android:layout_width="25dp"
-        android:layout_height="25dp"
         android:id="@+id/imageView"
+        android:layout_width="@dimen/quote_icon_size"
+        android:layout_height="@dimen/quote_icon_size"
         android:layout_alignParentRight="true"
-        android:src="@drawable/quote"/>
+        android:src="@drawable/quote" />
 
     <ImageView
-        android:layout_width="25dp"
-        android:layout_height="25dp"
         android:id="@+id/imageView2"
+        android:layout_width="@dimen/quote_icon_size"
+        android:layout_height="@dimen/quote_icon_size"
         android:layout_toLeftOf="@id/imageView"
-        android:src="@drawable/quote"/>
+        android:src="@drawable/quote" />
 
     <ImageView
-        android:layout_width="25dp"
-        android:layout_height="25dp"
         android:id="@+id/imageView3"
+        android:layout_width="@dimen/quote_icon_size"
+        android:layout_height="@dimen/quote_icon_size"
         android:layout_toLeftOf="@id/imageView2"
-        android:src="@drawable/quote"/>
+        android:src="@drawable/quote" />
 
     <TextView
+        android:id="@+id/book_title_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:text="Example book title"
-        android:textSize="20dp"
-        android:id="@+id/book_title_text" />
+        android:textSize="20dp" />
 </RelativeLayout>
