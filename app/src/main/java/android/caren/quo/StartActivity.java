@@ -58,15 +58,6 @@ public class StartActivity extends AppCompatActivity {
                 }
             }
         });
-
-        quoteText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View view, boolean b) {
-                if (quoteText.getText().toString().equals("")) {
-                    quoteText.setText("What's that quote that you loved?");
-                }
-            }
-        });
     }
 
     public void listenForText() {
