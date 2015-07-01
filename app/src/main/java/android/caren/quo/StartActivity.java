@@ -12,12 +12,13 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class StartActivity extends AppCompatActivity {
 
-    private TextView quoteText;
+    private EditText quoteText;
     private Button startButton;
     private final int REQ_CODE_SPEECH_INPUT = 100;
 
@@ -26,7 +27,7 @@ public class StartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
 
-        quoteText = (TextView) findViewById(R.id.textView);
+        quoteText = (EditText) findViewById(R.id.textView);
         startButton = (Button) findViewById(R.id.button);
 
         startButton.setOnClickListener(new View.OnClickListener() {

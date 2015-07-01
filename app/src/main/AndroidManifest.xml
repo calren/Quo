@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".BookConfirmationActivity"
+            android:label="@string/title_activity_book_confirmation" >
+        </activity>
+        <activity
+            android:name=".BookListActivity"
+            android:label="@string/title_activity_book_list" >
+        </activity>
+        <activity
+            android:name=".QuoteListActivity"
+            android:label="@string/title_activity_quote_list" >
+        </activity>
     </application>
 
 </manifest>
