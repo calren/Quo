@@ -5,6 +5,7 @@ import java.util.Locale;
 
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.speech.RecognizerIntent;
 import android.support.v7.app.AppCompatActivity;
@@ -13,13 +14,15 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 public class StartActivity extends AppCompatActivity {
 
     private EditText quoteText;
-    private Button startButton;
+    private ImageView startButton;
+    private ImageView saveButton;
     private final int REQ_CODE_SPEECH_INPUT = 100;
 
     @Override
@@ -28,12 +31,21 @@ public class StartActivity extends AppCompatActivity {
         setContentView(R.layout.activity_start);
 
         quoteText = (EditText) findViewById(R.id.textView);
-        startButton = (Button) findViewById(R.id.button);
+        startButton = (ImageView) findViewById(R.id.quote_button);
+        saveButton = (ImageView) findViewById(R.id.save_quote_button);
 
         startButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 listenForText();
+            }
+        });
+
+        saveButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(StartActivity.this, BookConfirmationActivity.class);
+                StartActivity.this.startActivity(intent);
             }
         });
     }
