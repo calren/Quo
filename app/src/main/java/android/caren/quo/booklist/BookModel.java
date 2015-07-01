@@ -19,4 +19,8 @@ public class BookModel {
         return quotes.size();
     }
 
+    public String getBookTitle() {
+        return bookTitle;
+    }
+
 }

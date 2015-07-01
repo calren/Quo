@@ -3,14 +3,15 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="FFFFFF">
+    android:background="#FFFFFF"
+    android:padding="20dp">
 
     <ImageView
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_alignParentLeft="true"
         android:src="@drawable/startquote"
-        android:layout_alignTop="@id/quote_text"/>
+        android:layout_alignTop="@+id/quote_text"/>
 
     <TextView
         android:id="@+id/quote_text"
@@ -25,7 +26,7 @@
         android:layout_height="40dp"
         android:layout_alignParentRight="true"
         android:src="@drawable/endquote"
-        android:layout_alignBottom="@id/quote_text"/>
+        android:layout_alignBottom="@+id/quote_text"/>
 
 
 </RelativeLayout>

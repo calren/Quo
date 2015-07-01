@@ -15,7 +15,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="82dp"
         android:background="@android:color/transparent"
-        android:text="Where's that quote sfdaf sdaf dsf sfad sdf asf asd fasdf ?"
+        android:text="What's that quote that you loved?"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <ImageView

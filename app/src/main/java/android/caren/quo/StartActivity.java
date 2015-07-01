@@ -49,6 +49,24 @@ public class StartActivity extends AppCompatActivity {
                 StartActivity.this.startActivity(intent);
             }
         });
+
+        quoteText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (quoteText.getText().toString().equals("What's that quote that you loved?")) {
+                    quoteText.setText("");
+                }
+            }
+        });
+
+        quoteText.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View view, boolean b) {
+                if (quoteText.getText().toString().equals("")) {
+                    quoteText.setText("What's that quote that you loved?");
+                }
+            }
+        });
     }
 
     public void listenForText() {

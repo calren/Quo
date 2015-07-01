@@ -13,7 +13,8 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="80dp"
         android:text="What are you reading?"
-        android:textSize="40dp" />
+        android:textColor="#4F94CD"
+        android:textSize="40dp"/>
 
     <EditText
         android:id="@+id/book_title_edit_text"
@@ -22,6 +23,7 @@
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:layout_margin="30dp"
+        android:textColor="#636363"
         android:background="@android:color/transparent"
         android:text="Example Book Title"
         android:textSize="35dp" />
